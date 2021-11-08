@@ -1,0 +1,240 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    overflow-y: auto;
+    background-color: #eee;
+}
+
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav > ul > li{
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+.nav-link{
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link:first-child{
+    margin-right: auto;
+}
+
+
+.btn-buy{
+    font-size: 1rem;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.email-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+}
+
+
+.email-section h2 {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.form-email{
+    max-width: 350px;
+    width: 100%;
+    height: 35px;
+    padding: 15px;
+}
+
+#submit{
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    margin: 15px 0;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service1{
+    display: flex;
+    justify-content: center;
+}
+#features{
+    margin-top: 20px;
+}
+#delivery{
+    margin-top: 20px;
+}
+#quality{
+    margin-top: 20px;
+}
+
+i{
+    font-size: 3.5em;
+    padding: 0.3rem;
+}
+.service1-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+.service-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.sample-video{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+#video{
+    max-width: 560px;
+    width: 100%;
+}
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+    width: calc(3 / 100%);
+    align-items: center;
+}
+
+.name{
+    text-transform: uppercase;
+    color: black;
+}
+
+#app-development{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 2em;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+ol{
+    margin: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.pricing > ol > li{
+    margin: 15px;
+    padding: 10px;
+}
+
+button{
+    margin: 10px 0;
+    background-color: lemonchiffon;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer > ul{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+footer{
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+
+footer > ul > li {
+    list-style: none;
+    padding: 5px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+/* media queries */
+@media (max-width: 600px) { 
+    .pricing{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 55px;
+    width: calc(3 / 100%);
+    align-items: center;
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

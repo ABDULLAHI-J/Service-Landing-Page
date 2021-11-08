@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Product Service Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <body>
+        <div id="main-content">
+            <header id="header">
+                <!-- navbar for navigation -->
+                <nav id="nav-bar">
+                    <ul class="nav-list">
+                        <a class="nav-link" href="#header"><img  id="header-img" src="image/space.svg" alt="Company Logo" width="100"></a>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+                        <li><a class="nav-link" href="#price">Prices</a></li>
+                        <li><button class="btn-buy"><a class="nav-link" href="#price">Buy Now</a></button></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="email-section">
+                <h2>The best services provided by an agency</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" placeholder="Enter your email address" name="email" class="form-email"required>
+                    <input class="btn" id="submit" type="submit"  value="Get Started">
+                </form>
+            </section>
+            <div class="container">
+                <!-- features section -->
+                <section id="features">
+                    <div class="service1">
+                        <div class="service1-icon">
+                            <i class="far fa-calendar-check"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>Timely delivery</h2>
+                            <p>Isomdev agency will timely deliver the service you request with no delays.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Quality section -->
+                <section id="how-it-works">
+                    <div class="service1">
+                        <div class="service1-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>Quality Assuarance</h2>
+                            <p>The quality of our services are best in global rankings, you receive the best services.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- delivery section -->
+                <section id="delivery">
+                    <div class="service1">
+                        <div class="service1-icon">
+                            <i class="fab fa-servicestack"></i>
+                        </div>
+                        <div class="service-description">
+                            <h2>Delivery time</h2>
+                            <p>Our services are delivered on the time the clients set, no more worries of late deliveries</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- service video section -->
+                    <section class="sample-video">
+                        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/jeoN8Hk5b54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                <!-- Pricing section -->
+                <section class="pricing" id="price">
+                    <div id="app-development">
+                        <div class="name">Android Development</div>
+                        <h3>1500$</h3>
+                        <ol>
+                            <li>3 screen</li>
+                            <li>Animations</li>
+                            <li>User login</li>
+                            <li>Admin panel</li>
+                        </ol>
+                        <button>Order now</button>
+                    </div>
+                    <div id="app-development">
+                        <div class="name">Flutter Development</div>
+                        <h3>1400$</h3>
+                        <ol>
+                            <li>5 screen</li>
+                            <li>Animations</li>
+                            <li>User login</li>
+                            <li>Admin panel</li>
+                        </ol>
+                        <button>Order now</button>
+                    </div>
+                    <div id="app-development">
+                        <div class="name">React Development</div>
+                        <h3>1100$</h3>
+                        <ol>
+                            <li>4 screen</li>
+                            <li>Animations</li>
+                            <li>User login</li>
+                            <li>Admin panel</li>
+                        </ol>
+                        <button>Order now</button>
+                    </div>
+                </section>
+                <!-- footer -->
+                <footer>
+                    <ul>
+                        
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                    <div>Copyright 2021 Isomdev.</div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
